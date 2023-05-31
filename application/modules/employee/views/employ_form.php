@@ -266,7 +266,7 @@
 
                   <div class="col-sm-3">
                     <div class="form-group">
-                      <label for="tin_no"><?php echo display('tin_no')?><sup class="color-black ">*</sup></label>
+                      <label for="tin_no"><?php echo display('tin_no')?><sup class="color-black "></sup></label>
                         <input id="tin_no" name="tin_no" type="number" class="form-control" placeholder="<?php echo display('tin_no')?>">
                     </div>
                     
@@ -704,7 +704,7 @@
               </select>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6" style="display:none;"> 
             <div class="form-group form-group-margin">
               <label for="s_name"><?php echo display('ethnic_group')?></label>
               <input type="text" class="form-control" id="ethnic"
@@ -718,7 +718,7 @@
               name="eeo_class" placeholder="<?php echo display('eeo_class_gp')?>">
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6" style="display:none;">
             <div class="form-group form-group-margin">
               <label for="sos"><?php echo display('sos')?> <sup class="color-black">*</sup></label>
                 <input type="text" class="form-control" id="sos"
@@ -807,7 +807,7 @@
             </div>
             <div class="col-sm-6">
               <div class="form-group">
-                <label for="h_phone"><?php echo display('home_phone')?> <sup class="color-red ">*</sup></label>
+                <label for="h_phone"><?php echo display('home_phone')?> <sup class="color-red "></sup></label>
                   <input type="number" class="form-control" id="h_phone"
                   name="h_phone" placeholder="<?php echo display('home_phone')?>">
               </div>

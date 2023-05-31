@@ -102,7 +102,7 @@
                     </div> -->
 
                     <div class="form-group row">
-                        <label for="soc_sec_npf_tax" class="col-xs-3 col-form-label"><?php echo display('soc_sec_npf_tax').'(%)';?></label>
+                        <label for="soc_sec_npf_tax" class="col-xs-3 col-form-label">Providence Fund Deduction %</label>
                         <div class="col-xs-9">
                             <input name="soc_sec_npf_tax" type="number" class="form-control" id="currency_symbol" placeholder="<?php echo display('soc_sec_npf_tax') ?>" value="<?php echo $setting->soc_sec_npf_tax ?>">
                         </div>

@@ -763,7 +763,7 @@
                                     </div>
                                 </div>
                               <div class="col-sm-6">
-                                    <div class="form-group form-group-margin">
+                                    <div class="form-group form-group-margin" style="display:none;">
                                         <label for="s_name"><?php echo display('ethnic_group')?></label>
                                         <input type="text" class="form-control" id="ethnic"
                                         name="ethnic" placeholder="Ethnic" value="<?php echo $data->ethnic_group;?>">
@@ -776,8 +776,8 @@
                                         name="eeo_class" placeholder="EEO Class Group" value="<?php echo $data->eeo_class_gp;?>">
                                     </div>
                                 </div>
-                                 <div class="col-sm-6">
-                                    <div class="form-group form-group-margin">
+                                 <div class="col-sm-6" style="display:none;">
+                                    <div class="form-group form-group-margin" style="display:none important;">
                                         <label for="sos"><?php echo display('sos')?> <sup class="color-black">*</sup></label>
                                         <input type="text" class="form-control" id="sos"
                                         name="sos" placeholder="SOS" value="<?php echo $data->sos;?>">

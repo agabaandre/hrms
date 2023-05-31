@@ -196,13 +196,13 @@ body.hold-transition .main-header .logo {
 
 ::-moz-selection {
     color: #fff;
-    background: #151B8D;
+    background: #348F41;
     text-shadow: none;
 }
 
 ::selection {
     color: #fff;
-    background: #151B8D;
+    background: #348F41;
     text-shadow: none;
 }
 
@@ -230,7 +230,7 @@ p {
 
 /* General Links */
 a {
-    color: #151B8D;
+    color: #bba66d;
     text-decoration: none;
 }
 
@@ -320,7 +320,7 @@ hr {
 
 /*color*/
 .color-green {
-    color: #151B8D !important;
+    color: #348F41; !important;
 }
 
 .color-red {
@@ -336,7 +336,7 @@ hr {
 }
 
 .color-yellow {
-    color: #FFB61E !important;
+    color: #B4A269 !important;
 }
 
 .color-info {
@@ -365,7 +365,7 @@ hr {
 }
 
 .text-warning {
-    color: #FFB61E !important;
+    color: #B4A269!important;
 }
 
 .text-danger {
@@ -422,12 +422,12 @@ hr {
 }
 
 .bg-green {
-    background: #151B8D !important;
+    background: #348F41 !important;
 }
 
 /*background color*/
 .bg-red {
-    background: #E5343D !important;
+    background: #782C2D !important;
 }
 
 .bg-violet {
@@ -439,7 +439,14 @@ hr {
 }
 
 .bg-yellow {
-    background: #FFB61E !important;
+    background: #B4A269 !important;
+}
+.bg-maroon {
+    background:#C45B39 !important;
+
+}
+.bg-acdc-brown{
+    background:#6B4C24 !important;
 }
 
 
@@ -560,6 +567,7 @@ hr {
     display: none;
 }
 
+
 .main-header .navbar .nav > li.user > a > .fa,
 .main-header .navbar .nav > li.user > a > .glyphicon,
 .main-header .navbar .nav > li.user > a > .ion {
@@ -591,8 +599,8 @@ hr {
     padding: 0 15px;
     font-weight: 300;
     overflow: hidden;
-    background-color: #3e454c;
-    color: #fff;
+    background-color: #FFF;
+    color: #000;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     -webkit-transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
@@ -860,6 +868,7 @@ hr {
     margin: 5px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #bba66d;
 }
 
 .user-panel .info a {
@@ -903,13 +912,13 @@ hr {
 }
 
 .sidebar-menu > li.active > a {
-    border-left: 3px solid #0f1136;
+    border-left: 3px solid #348F41;
 }
 
 .sidebar-menu > li:hover > a,
 .sidebar-menu > li.active > a {
     color: #fff;
-    background: #33383e;
+    background: #343A44 !important;
 }
 
 .sidebar-menu > li > a > .fa,
@@ -7372,7 +7381,7 @@ color:white;
     color: #fff;
 }
 .small-box {
-    border-radius: 2px;
+    border-radius: 8px;
     position: relative;
     display: block;
     margin-bottom: 20px;
@@ -7520,7 +7529,8 @@ color:white;
 .attendance .nav li a:hover,
 .attendance .nav li.active a:focus,
 .attendance .nav li.active a:hover{
-  background-color:green;
+  background-color:#E08F2A;
+  border-radius: 4px;
   color:#fff;
 }
 .attendance .nav li a{

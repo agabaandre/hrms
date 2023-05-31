@@ -5,7 +5,7 @@
         <?php $this->load->view('includes/head') ?>
     </head>
 
-    <body class="hold-transition sidebar-mini">
+    <body class="hold-transition fixed sidebar-mini  pace-done">
       
         <!-- Site wrapper -->
         <div class="wrapper">

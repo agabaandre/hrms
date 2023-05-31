@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="small-box bg-pase whitecolor">
+                    <div class="small-box bg-red whitecolor">
                         <div class="inner">
                               <h4><span class="count-number"><?php echo (!empty($present_empl)?$present_empl:0);?></span></h4>
 
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="small-box bg-bringal whitecolor">
+                    <div class="small-box bg-yellow whitecolor">
                         <div class="inner">
                               <h4><span class="count-number"><?php 
                             
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="small-box bg-darkgreen whitecolor">
+                    <div class="small-box bg-acdc-brown whitecolor">
                         <div class="inner">
                               <h4><span class="count-number"><?php echo (!empty($todys_leave)?$todys_leave:0);?></span></h4>
 

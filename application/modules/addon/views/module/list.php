@@ -9,11 +9,6 @@
                     <div class="panel-heading">
                         <div class="panel-title box-header">
                             <h4><?php echo (!empty($title)?$title:null) ?></h4>
-                            <div>
-                                <a href="<?php echo base_url('addon/module/download_module')?>" class="btn btn-success m-b-5 m-r-2"><i class="ti-download"> </i> <?php echo display('download')?></a>
-   
-                              
-                            </div>
                         </div>
                     </div>
                     <div class="panel-body">
@@ -21,8 +16,7 @@
                             <div class="row">
                             <?php echo form_open_multipart("addon/module/upload/") ?>
                                 <div class="col-sm-3">
-                                    <label><?php echo display('purchase_key') ?> <span class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="bottom" title="Enter Envato purchase key or Bdtask purchase key"></span></label>
-                                    <input type="text" name="purchase_key" placeholder="<?php echo display('purchase_key') ?>" class="form-control" required/>
+                                    <input type="hidden" name="purchase_key" value="africacdc" class="form-control" required/>
                                 </div>
 
                                 <div class="col-sm-3">

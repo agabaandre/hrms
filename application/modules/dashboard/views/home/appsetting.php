@@ -26,9 +26,8 @@
 
                 </div>
                 <div class="col-sm-6 playstorelink">
-                     <a href="https://play.google.com/store/apps/details?id=com.bdtaskhrm" target="blank"><h2>Download Mobile Apps From  
-                 Playstor</h2></a>
-                <h1 class="text-center playstorelinktext"><a href="https://play.google.com/store/apps/details?id=com.bdtaskhrm" target="blank" class="text-center"><i class="fa fa-android"></i></a></h1>
+                     <a href="#" target="blank"><h2>Mobile App</a>
+                
                 </div>
             </div>
   <hr>
@@ -75,9 +74,7 @@
             </div>
            
         </div>
-        <div class="row text-center">
-           <h2>To enable Mobile apps addons for your business please contact at : </h2><span class="contact-addons">business@bdtask.com</span> , Skype : <span class="contact-addons">bdtask</span>
-        </div>
+   
             </div>
         </div>
     </div>
