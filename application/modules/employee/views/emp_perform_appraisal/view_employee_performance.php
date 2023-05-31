@@ -19,7 +19,7 @@
 
                      <div class="row">
                         <div class="col-xs-3">
-                            <img class="" style="margin-top: -10px;" src="<?php echo base_url('/').$setting->logo;?>" alt="">
+                             <img src="<?php echo base_url((!empty($setting->logo) ? $setting->logo : 'assets/img/icons/mini-logo.png')) ?>" alt="">
                         </div>
                         <div class="col-xs-5">
                             <h3 style="text-align:center;"><?php echo $performance_year?$performance_year:'';?> PERFOMANCE APPRAISAL</h3>

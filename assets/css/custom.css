@@ -6922,7 +6922,7 @@ height: 180px; float: left;
 
 .empform > .nav.nav-tabs li:not(.active) a {
   pointer-events:none;
-  background-color: #2554C7;
+  background-color: #782C2D;
   color:white;
 }
 .empform > .nav.nav-tabs li .active a{

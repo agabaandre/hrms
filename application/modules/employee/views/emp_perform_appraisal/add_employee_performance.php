@@ -8,7 +8,7 @@
 
             <div class="row">
                 <div class="col-xs-3">
-                    <img class="logo-image" src="<?php echo base_url('assets/img/icons/2017-07-22/HRM.png');?>" alt="">
+                     <img src="<?php echo base_url((!empty($setting->logo) ? $setting->logo : 'assets/img/icons/mini-logo.png')) ?>" alt="">
                 </div>
                 <div class="col-xs-9">
                     <h3><?php echo date('Y');?> PERFOMANCE APPRAISAL INTERVIEW FORM</h3>

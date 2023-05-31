@@ -8,7 +8,7 @@
 
             <div class="row">
                 <div class="col-xs-3">
-                    <img class="logo-image" src="<?php echo base_url('/').$setting->logo;?>" alt="">
+                    <img src="<?php echo base_url((!empty($setting->logo) ? $setting->logo : 'assets/img/icons/mini-logo.png')) ?>" alt="">
                 </div>
                 <div class="col-xs-6">
                     <h3 class="action-title">UPDATE PERFOMANCE APPRAISAL</h3>
